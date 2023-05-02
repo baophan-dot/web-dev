@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    color: white;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+h1{
+    font-size: 70px;
+    margin-bottom: 50px;
+}
+h2{
+    margin-top: 20px;
+}
+.cards{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.box{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin: 50px;
+}
+.bg-jinx{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(feedback/jinx_official.jpg);
+    background-size: cover;
+    border-radius: 5px;
+    transition: 1s;
+}
+.box:hover .bg-jinx{
+    transform: 
+        perspective(20px)
+        rotateX(2deg)
+        translateY(-50px);
+        opacity: 50%;
+}
+.box .jinx{
+    display: none;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-size: 100%;
+    background-image: url(feedback/jinx_official.jpg);
+    border-radius: 15px;
+    transition: 1s ease-in;
+}
+.box:hover .jinx{
+    display: block;
+}
+.box:hover .jinx h2{
+    display: block;
+}
+.box h2{
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.box:hover h2{
+    display: none;
+}
+
+.bg-lux{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(feedback/lux_official.png);
+    background-size: cover;
+    border-radius: 5px;
+    transition: 1s;
+}
+.box:hover .bg-lux{
+    transform: 
+        perspective(20px)
+        rotateX(2deg)
+        translateY(-50px);
+        opacity: 50%;
+}
+.box .lux{
+    display: none;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-size: 100%;
+    background-image: url(feedback/lux_official.png);
+    border-radius: 15px;
+    transition: 1s ease-in;
+}
+.box:hover .lux{
+    display: block;
+}
+.box:hover .lux h2{
+    display: block;
+}
+
+/* footer */
+footer{
+    padding: 20px;
+    margin-top: 20px;
+}
+.row1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;  
+}
+.info p{
+    text-align: left;
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 100px;
+}
+.contact-left{
+    flex-basis: 35%;
+}
+.contact-right{
+    flex-basis: 60%;
+    margin-right: 20px;
+}
+.btn.btn2{
+    font-weight: 500;
+    display: inline-block;
+    background: white;
+    border: none;
+}
+.btn.btn2:hover{
+    background-color:rgb(58, 58, 242);
+    color: white;
+}
+.contact-right form{
+    width: 100%;
+}
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    padding: 15px 0;
+    border-radius: 6px;
+    margin: 10px 10px;
+    opacity: 85%;
+    display: inline-block;
+    margin-left:5px;
+    letter-spacing: 1px;
+    padding: 20px;
+}
+textarea{
+    font-size: 0.8rem;
+}
+form .btn2{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 15em;
+}
+.social{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    margin-left: 80px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.social img{
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+.info a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+.info .turnback{
+    font-weight: 500;
+    background-color: white;
+    margin-left: 100px;
+    border-radius: 15px;
+}

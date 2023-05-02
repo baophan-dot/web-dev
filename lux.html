@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>LUX</title>
+        <meta charset="utf-8">
+        <meta name="viewpoint" content="width=device-width, initial-scale: 1.0">
+        <link rel="stylesheet" href="lux.css">
+       <link rel="icon" type="image/x-icon" href="lux/chibi_lux.jpg">
+    </head>
+    <body>
+        <div id="about">
+
+            <div class="ok">
+                <div class="right">
+                    <div class="viss active-video" id="class1">
+                        <video src="lux/The Light Within _ Elementalist Lux - League of Legends.mp4"" autoplay muted loop></video>
+                    </div>
+                    <div class="viss" id="lore1">
+                        <video src="lux/Warriors - Season 2020 Cinematic - League of Legends (ft. 2WEI and Edda Hayes).mp4" autoplay muted loop></video>
+                    </div>
+                </div>
+                    <div class="overlay">
+                        <div class="noidungs active-noidung" id="class">
+                            <h2 class="main">CLASS</h2>
+                            <h2 class="main">Mage</h2>
+                            <div class="song">"Luxanna Crownguard hails from Demacia, an insular realm where magical abilities are viewed with fear and suspicion. Able to bend light to her will, she grew up dreading discovery and exile, and was forced to keep her power secret, in order to preserve her family’s noble status. Nonetheless, Lux’s optimism and resilience have led her to embrace her unique talents, and she now covertly wields them in service of her homeland.</p></div>
+                        </div>
+                        <div class="noidungs" id="lore">
+                            <h2 class="main">LORE</h2>
+                            <div class="song">"Luxanna grew up in the Demacian city of High Silvermere alongside her older brother Garen. Like her brother, she was a heir to the the noble Crownguard family whom protected the king. While Garen was devoted to serving his country at an early age, Lux was forced to run her family's estates, which she was disinterested with. She was always curious and rebellious, wishing to find out what lied outside of Demacia's walls.
+                                <br>
+                                Magic was seen as evil in Demacian culture, ever since magic from the Rune Wars had nearly destroyed Valoran, and Lux's fear grew from the traumatic moment where her uncle was killed by a rogue mage. One night, she was attacked by a pack of sabrewulves and she ended up unleashing a spark of light, scaring them off. Lux became afraid of this revelation, worrying that the magic might corrupt her. She would practice her magic in private, and keep her abilities a secret from everyone.
+                                <br>
+                                When she was sixteen, Lux travelled with her parents Pieter and Augatha to witness Garen being accepted into the Dauntless Vanguard. Then they moved to Demacia's capital, which she admired due to being every aspect of the Demacia her family believed in. She learned about the Illuminators, a religious order who took care of the citizens and even secretly admitted mages. Lux believes that the Demacian way is not the only way, and it would be better if Demacia became more accepting of mages like herself.</div>
+                        </div>
+                        <dive class="nav-btn">
+                            <button onclick="changevideo('class1'); changenoidung('class')" class="buttons active-button"></button>
+                            <button onclick="changevideo('lore1'); changenoidung('lore')"class="buttons" ></button>
+                        </dive>
+                    </div>
+            </div>
+
+                <header>       
+                    <h1>LUX</h1>     
+                    <ul>
+                        <li><a href="project2.html">HOME</li></a>
+                        <li><a href=#about>ABOUT</a></li>
+                        <li><a href=#abilities>ABILITIES</a></li>
+                        <li><a href=#skins>SKINS</a></li>
+                        <li><a href="feedback.html">FEEDBACKS</a></li>
+                    </ul>
+                </header>
+        </div>
+    
+<!-- abilities -->
+<div class="abilities reveal" id="abilities">
+    <div class="bar-abilities">
+        <h1>ABILITIES</h1>
+    </div>
+    <div class="row1">
+        <div class="tab">
+            <div class="tab-subtitle">
+                <img src="lux/passive.jpg" class="tab-links active-links" onclick="opentab('Passive'); changevid('passive1')">
+                <img src="lux/q.jpg" class="tab-links" onclick="opentab('q'); changevid('q1')" >
+                <img src="lux/w.jpg" class="tab-links" onclick="opentab('w'); changevid('w1')" >
+                <img src="lux/e.jpg" class="tab-links" onclick="opentab('e'); changevid('e1')" >
+                <img src="lux/r.jpg" class="tab-links" onclick="opentab('r'); changevid('r1')" >
+            </div>
+            <div class="tab-contents active-tab" id="Passive">
+                <h3>Passive</h3>
+                <h2>ILLUMINATION</h2>
+                <p>Lux's damaging spells charge the target with energy for a few seconds. Lux's next attack ignites the energy, dealing bonus magic damage (depending on Lux's level) to the target.</p>
+            </div>
+            <div class="tab-contents " id="q">
+                <h3>Q</h3>
+                <h2>LIGHT BINDING</h2>
+                <p>Lux fires a ball of light, Rooting the first two enemies for e3 seconds and dealing totaldamagett magic damage to each..</p>
+            </div>
+            <div class="tab-contents " id="w">
+                <h3>W</h3>
+                <h2>PRISMATIC BARRIER</h2>
+                <p>Lux throws her wand, granting total shield for e3 seconds to allies it passes through. Then it returns, granting the same Shield on its return.</p>
+            </div>
+            <div class="tab-contents " id="e">
+                <h3>E</h3>
+                <h2>LUCENT SINGULARITY</h2>
+                <p>Lux creates a light zone that Slows by e1% and reveals the area. After e3 seconds or on Recasting this Ability, it detonates, dealing totaldamagett magic damage and Slowing for an additional slowlingerduration second.</p>
+            </div>
+            <div class="tab-contents " id="r">
+                <h3>R</h3>
+                <h2>FINAL SPARK</h2>
+                <p>Lux fires a dazzling ray of light, dealing total damage magic damage to all enemies in a line.</p>
+            </div>
+        </div>
+        <div class="vid-slide">
+            <div class="vids active-vid" id="passive1">
+                <video src ='lux/passive.mp4' autoplay muted loop></video>
+            </div>
+            <div class="vids" id="q1">
+                <video src="lux/q.mp4" autoplay muted loop></video>
+            </div>
+            <div class="vids" id="w1">
+                <video src="lux/w.mp4" autoplay muted loop></video>
+            </div>
+            <div class="vids" id="e1">
+                <video src="lux/e.mp4" autoplay muted loop></video>
+            </div>
+            <div class="vids" id="r1">
+                <video src="lux/r.mp4" autoplay muted loop></video>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- skins -->
+<div class="skins reveal" id="skins">
+    <h2>SKINS</h2>
+    <div class="slider">
+        <div class="list">
+            <div class="item">
+                <img src="lux/skin1.jpg">
+            </div>
+            <div class="item">
+                <img src="lux/skin2.jpg">
+            </div>
+            <div class="item">
+                <img src="lux/skin3.jpg">
+            </div>
+            <div class="item">
+                <img src="lux/skin4.jpg">
+            </div>
+            <div class="item">
+                <img src="lux/skin5.jpg">
+            </div>
+            <div class="item">
+                <img src="lux/skin6.jpg">
+            </div>
+            <div class="item">
+                <img src="lux/skin7.jpg">
+            </div>
+            <div class="item">
+                <img src="lux/skin8.jpg">
+            </div>
+            <div class="item">
+                <img src="lux/skin9.jpg">
+            </div>
+        </div>
+        <div class="btns">
+            <button id="prev">
+                <div class="arrow1"></div>
+            </button>
+            <button id="next">
+                <div class="arrow2"></div>
+            </button>
+        </div>
+        <div class="dots">
+            <ul>
+                <li class="active-dot"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="foot">
+        <div class="row2">
+            <a href='https://www.leagueoflegends.com/vi-vn/' target="_blank"><img src="jinx/lol_icon.jpg"></a>
+            <div class="end">
+                    <h2><a href="feedback.html">FEEDBACKS</a></h2>
+                    <h2>SUPPORT</h2>
+            </div>
+        </div>
+    </div>
+</footer>
+        <script src="lux.js"></script>
+    </body>
+</html>

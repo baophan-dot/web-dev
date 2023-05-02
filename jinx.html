@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Jinx</title>
+        <meta charset="utf-8">
+        <meta name="viewpoint" content="width=device-width, initial-scale: 1.0">
+        <link rel="stylesheet" href="jinx.css">
+       <link rel="icon" type="image/x-icon" href="jinx/chibi_jinx.jpg">
+    </head>
+    <body>
+        <main>
+            <div class="bar">
+                <div class="banner">
+                    <div class="bg"></div>
+                </div>
+                <div class="container">
+                    <header>
+                            <h1>JINX</h1>
+                            <ul id="menu">
+                                <li><a href="project2.html">HOME</li></a>
+                                <li><a href=#about>ABOUT</a></li>
+                                <li><a href=#abilities>ABILITIES</a></li>
+                                <li><a href=#skins>SKINS</a></li>
+                                <li><a href="feedback.html">FEEDBACKS</a></li>
+                            </ul>
+                    </header>
+                </div>
+        </div>
+
+<!-- ********about******** -->  
+    <div class="about" id='about'>
+        <h1 class="title1 reveal">ABOUT</h1>
+            <section class="row reveal">
+                <div class="about1">
+                    <img src="jinx/jinx_transparent_official_1.png">
+                </div>
+                <div class="content content1">
+                    <div class="content-background"></div>
+                    <h1>GAMEPLAY</h1><br>
+                    <ul>
+                        <li><h2>Marksman</h2></li><br>
+                        <li><p>In the game, Jinx is a marksman-type character, dealing high damage from the back lines. Her passive, Get Excited, increases her movement and attack speed dramatically whenever she kills a large enemy in a hyperactive adrenaline rush. With Switcheroo, Jinx can swap between her minigun and rocket launcher to change her basic attacks, utilizing the different parts of her arsenal. With Zap, Jinx shoots and stuns enemies with a shock pistol, and with Flame Chompers, Jinx throws snare grenades that explode on contact. Her ultimate, Super Mega Death Rocket, launches a long-range missile that can fly anywhere on the map and explodes on impact.</p></li><br>
+                    </ul>
+                </div>
+            </section>
+            <section class="row reveal">
+                <div class="content content2">
+                    <div class="content-background"></div>
+                    <h1>LORE</h1><br>
+                    <ul>
+                        <li><h2>Powder</h2></li><br>
+                        <li><p>Jinx grew up in Zaun Crest Zaun as a sweet and innocent girl who loved tinkering with machinery but never quite fit in. However, a horrible tragedy changed her into a completely different person who delighted in acts of destruction.
+                            Jinx eventually became a widely known criminal, first gaining notoriety through her anonymous “pranks” on the citizens of Piltover Crest Piltover, particularly those with connections to the city's ruling houses. These pranks ranged from mildly annoying to extremely dangerous, causing chaos and mayhem throughout Piltover and Zaun. Law enforcement attributed these to other gangs in Zaun, and Jinx was annoyed by this, deciding to make it clear that her future "pranks" were going to clearly mark her as their perpetrator from then on. Soon, word of her began to spread around and she became the most widely known criminal in both cities, causing mayhem and destruction wherever she went.
+                            Jinx continues to cause mayhem around Piltover and Zaun wherever and whenever she can with seemingly no regard for the property damage or potential victims she would create, only occasionally being thwarted by enforcer Vi  or Caitlyn Caitlyn.</p></li>
+                    </ul>
+                </div>
+                <div class="about2">
+                    <img src="jinx/jinx_transparent_official_2.png">
+                </div>
+            </section>
+        </div>
+    </div>
+
+<!-- ******abilities****** -->
+<div class="abilities reveal" id="abilities">
+    <div class="bar-abilities">
+        <h1>ABILITIES</h1>
+    </div>
+    <div class="row1">
+        <div class="vid-slide">
+            <div class="vids active-vid" id="passive1">
+                <video src ='jinx/passive1.mp4' autoplay muted loop></video>
+            </div>
+            <div class="vids" id="q1">
+                <video src="jinx/q1.mp4" autoplay muted loop></video>
+            </div>
+            <div class="vids" id="w1">
+                <video src="jinx/w1.mp4" autoplay muted loop></video>
+            </div>
+            <div class="vids" id="e1">
+                <video src="jinx/e1.mp4" autoplay muted loop></video>
+            </div>
+            <div class="vids" id="r1">
+                <video src="jinx/r1.mp4" autoplay muted loop></video>
+            </div>
+        </div>
+        <div class="tab">
+            <div class="tab-subtitle">
+                <img src="jinx/passive.png" class="tab-links active-links" onclick="opentab('Passive'); changevid('passive1')">
+                <img src="jinx/q.png" class="tab-links" onclick="opentab('q'); changevid('q1')" >
+                <img src="jinx/w.png" class="tab-links" onclick="opentab('w'); changevid('w1')" >
+                <img src="jinx/e.png" class="tab-links" onclick="opentab('e'); changevid('e1')" >
+                <img src="jinx/r.png" class="tab-links" onclick="opentab('r'); changevid('r1')" >
+            </div>
+            <div class="tab-contents active-tab" id="Passive">
+                <h3>Passive</h3>
+                <h2>GET EXCITED!</h2>
+                <p>Jinx receives massively increased Movement Speed whenever she damages an enemy champion, epic monster, or structure that is then killed or destroyed within 3 seconds. Additionally she gains 25% total attack speed and the attack speed cap is removed while she is Excited</p>
+            </div>
+            <div class="tab-contents " id="q">
+                <h3>Q</h3>
+                <h2>SWITCHEROO!</h2>
+                <p>Fishbones, the Rocket Launcher: Basic attacks deal 110% Damage to the target and nearby enemies, gain 80/110/140/170/200 range, drain Mana, and scale 10% less with bonus Attack Speed.<br>
+                    Pow-Pow, the Minigun: Basic attacks grant bonus Attack Speed for 2.5 seconds. This effect stacks up to 3 times for a total bonus of 30/55/80/105/130%. Stacks fall off one at a time and only benefit Jinx's first attack after switching to Rocket Launcher.</p>
+            </div>
+            <div class="tab-contents " id="w">
+                <h3>W</h3>
+                <h2>ZAP!</h2>
+                <p>Jinx fires a shock blast that deals 10/60/110/160/210 (+160% Attack Damage) Physical Damage to the first enemy hit, revealing it and slowing it by 40/50/60/70/80% for 2 seconds.</p>
+            </div>
+            <div class="tab-contents " id="e">
+                <h3>E</h3>
+                <h2>FLAME CHOMPERS!</h2>
+                <p>Jinx tosses out 3 chompers that, once armed (0.5 seconds), explode on contact with enemy champions, rooting the target for 1.5 seconds and stopping in-progress movement abilities on the spot before dealing 70/120/170/220/270 (+100% bonus Ability Power) Magic Damage to nearby enemies. Chompers last for 5 seconds.</p>
+            </div>
+            <div class="tab-contents " id="r">
+                <h3>R</h3>
+                <h2>SUPER MEGA DEATH ROCKET!</h2>
+                <p>Jinx fires a rocket that gains damage over the first second it travels. It explodes on the first enemy champion hit, dealing 25/35/45 (+15% bonus Attack Damage) to 300/450/600 (+150% bonus Attack Damage) Physical Damage plus 25/30/35% of the target's missing Health. Nearby enemies take 80% Damage.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ***skins*** -->
+<div class="skins reveal" id="skins">
+    <div style="width: 100%; height: 50px; border-bottom: 5px solid white; text-align: center;">
+        <span style="font-size: 60px; background-color: #091428; padding: 0 5px; font-weight: 500;">
+            SKINS
+        </span>
+      </div>
+    <div class="gallery">
+        <div style="background-image: url(jinx/skin1.jpg);"></div>
+        <div style="background-image: url(jinx/skin2.jpg);"></div>
+        <div style="background-image: url(jinx/skin3.jpg);"></div>
+        <div style="background-image: url(jinx/skin11.jpg);"></div>
+        <div style="background-image: url(jinx/skin5.jpg);"></div>
+        <div style="background-image: url(jinx/skin6.jpg);"></div>
+        <div style="background-image: url(jinx/skin7.jpg);"></div>
+        <div style="background-image: url(jinx/skin8.jpg);"></div>
+        <div style="background-image: url(jinx/skin9.jpg);"></div>
+        <div style="background-image: url(jinx/skin10.jpg);"></div>
+    </div>
+</div>
+    <script src="jinx.js"></script>
+        </main>
+    </body>
+    <footer>
+        <div class="foot">
+            <div class="row2">
+                <a href='https://www.leagueoflegends.com/vi-vn/' target="_blank"><img src="jinx/lol_icon.jpg"></a>
+                <div class="end">
+                        <h2><a href="feedback.html">FEEDBACKS</a></h2>
+                        <h2>SUPPORT</h2>
+                </div>
+            </div>
+        </div>
+    </footer>
+</html>

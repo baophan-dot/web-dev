@@ -1,0 +1,142 @@
+body{
+    background-image: url(images_project2/background.jpg);
+    background-size: cover;
+    backface-visibility: 80%;
+}
+.title{
+    text-align: center;
+    margin: 25px;
+    font-size:70px;
+    font-family: fantasy;
+    word-spacing: 15px;
+    color: #fff;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 20px;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container .card{
+    position: relative;
+    width: 500px;
+    height: 230px;
+    padding: 15px;
+    background: linear-gradient(60deg, #151516 0%, #1d2229 100%);
+    overflow: hidden;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+.container h2{
+    z-index: 99;
+    position: absolute;
+    bottom: 25px;
+    right: 130px;
+    font-size: 50px;
+    font-weight: 700;
+    pointer-events: none;
+    transition: 0.2s ease;
+    text-shadow: 0 0 15px rgba(0,0,0,0.5);
+    color: white;
+}
+.container p{
+    z-index: 99;
+    position: absolute;
+    right: 130px;
+    bottom: 30px;
+    width: 150px;
+    color: white;
+    font-size: 12px;
+    text-align: right;
+    letter-spacing: 1px;
+    display: none;
+    transition: 0.2s ease;
+    opacity: 0.7;
+    font-weight: 500;
+}
+.container .card .pic1{
+    z-index: 100;
+    width: 395px;
+    height: 200px;
+    background-image: url(images_project2/jinx.jpg);
+    background-size: cover;
+    border-radius: 12px;
+    filter: grayscale(100%);
+    transition: 0.8s ease;
+}
+.container .card .pic2{
+    z-index: 100;
+    width: 395px;
+    height: 200px;
+    background-image: url(images_project2/lux.jpg);
+    background-size: cover;
+    border-radius: 12px;
+    filter: grayscale(100%);
+    transition: 0.8s ease;
+}
+.container button{
+    position: relative;
+    right: 30px;
+    bottom: 40px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    outline: none;
+    opacity: 1;
+    transition: 0.8s ease;
+    margin-left: 475px;
+    margin-bottom: 200px;
+}
+.container .button1{
+    background-color: #772a9b;
+}
+.container .button2{
+    background-color:#FFEA00;
+}
+.container .card:hover button{
+    transform: scale(16.5);
+    opacity: 50%;
+}
+.container .card:hover h2{
+    bottom: 80px;
+    right: 50px;
+}
+.container .card:hover p{
+    opacity: 1;
+    right: 60px;
+    display: block;
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+}
+.container .card:hover span{
+    opacity: 0;
+    top: 80px;
+}
+.container .card:hover .pic1{
+    filter: grayscale(0);
+    width: 470px;
+}
+.container .card:hover .pic2{
+    filter: grayscale(0);
+    width: 470px;
+}
+.container span{
+    font-family: fantasy;
+    z-index: 1;
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    right: 0;
+    writing-mode: vertical-lr;
+    margin-right: 45px;
+    margin-top: 20px;
+}
